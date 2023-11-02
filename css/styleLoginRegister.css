@@ -1,0 +1,46 @@
+body {
+    background-image: url('assets/bg-signup.png');
+    background-size: cover;
+    background-color: #000;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-repeat: repeat-x;
+}
+
+th h1 {
+    text-align: center;
+}
+
+td .tombol {
+    float: right;
+}
+
+.tombol {
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color: grey; 
+    background: #000;
+}
+
+.tombol:hover {
+    color:#000;
+    background-color: #fff; 
+}
+
+table {
+    background-color: white;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}   
+@media screen and (max-width: 800px){
+}
